@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 31, 2018 at 03:25 PM
+-- Generation Time: May 31, 2018 at 03:57 PM
 -- Server version: 10.1.32-MariaDB
--- PHP Version: 7.2.5
+-- PHP Version: 5.6.36
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -21,6 +21,18 @@ SET time_zone = "+00:00";
 --
 -- Database: `donordarah`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `adminn`
+--
+
+CREATE TABLE `adminn` (
+  `idadmin` varchar(4) NOT NULL,
+  `namaadmin` varchar(10) NOT NULL,
+  `passadmin` varchar(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -97,6 +109,12 @@ CREATE TABLE `stokdarah` (
 --
 -- Indexes for dumped tables
 --
+
+--
+-- Indexes for table `adminn`
+--
+ALTER TABLE `adminn`
+  ADD PRIMARY KEY (`idadmin`);
 
 --
 -- Indexes for table `inputdarah`
