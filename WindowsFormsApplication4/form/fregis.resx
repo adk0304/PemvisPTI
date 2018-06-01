@@ -117,8 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="medical" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\medical.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="bunifuGradientPanel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADDSURBVChTbdDPCkFBFAbweSNJ8u/6kyRJkieyUJSFhaIo
+        CwtFURYWirLwOnNmrhf4nJnpXjOy//V93zkiM5LIjiVyE4n8TKIwJxQXhPKKEK0Jta1CY6cgLJoSI7Ko
+        ZJFCtFEpau41hEv6osrSJPlIoXVgmNRZxHVVr86io0L7xNBPMqgeJDnUuTB0w3lTUKc5Saeoe40h7HXB
+        cFPH6Jwgjd6Nof+C3zqHNPp3hv+GB+gRY/BkmG7iF/ibTJ1JMmj4euMDfvkZbjxbxFAAAAAASUVORK5C
+        YII=
+</value>
   </data>
 </root>

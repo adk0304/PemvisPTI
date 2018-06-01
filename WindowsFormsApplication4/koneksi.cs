@@ -17,5 +17,14 @@ namespace WindowsFormsApplication4
         {
             sambung.ConnectionString = konfigurasi;
         }
+        //public void test(string hasil)
+        //{
+        //    sambung.Open();
+        //    if (sambung.State == System.Data.ConnectionState.Open)
+        //    {
+        //        string ss = "Connection is opened";
+        //    }
+        //}
+
     }
 }
