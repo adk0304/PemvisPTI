@@ -54,11 +54,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="form\dasbot.cs">
+    <Compile Include="form\fdasbot.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="form\dasbot.Designer.cs">
-      <DependentUpon>dasbot.cs</DependentUpon>
+    <Compile Include="form\fdasbot.Designer.cs">
+      <DependentUpon>fdasbot.cs</DependentUpon>
     </Compile>
     <Compile Include="form\flogin.cs">
       <SubType>Form</SubType>
@@ -76,8 +76,12 @@
     <Compile Include="koneksi.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="form\dasbot.resx">
-      <DependentUpon>dasbot.cs</DependentUpon>
+    <Compile Include="variable\inputdarah.cs" />
+    <Compile Include="variable\inputdatapendonor.cs" />
+    <Compile Include="variable\outputdarah.cs" />
+    <Compile Include="variable\stokdarah.cs" />
+    <EmbeddedResource Include="form\fdasbot.resx">
+      <DependentUpon>fdasbot.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="form\flogin.resx">
       <DependentUpon>flogin.cs</DependentUpon>
@@ -131,6 +135,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\002-medical-history.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donation %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DONOR-DARAH.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\syarat.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\syarat2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\syarat3.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
