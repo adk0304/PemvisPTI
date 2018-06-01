@@ -205,6 +205,7 @@
             this.Controls.Add(this.bunifuGradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "flogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "flogin";
             this.Load += new System.EventHandler(this.flogin_Load);
             this.panel1.ResumeLayout(false);

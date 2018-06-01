@@ -54,6 +54,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="form\dasbot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\dasbot.Designer.cs">
+      <DependentUpon>dasbot.cs</DependentUpon>
+    </Compile>
     <Compile Include="form\flogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +76,9 @@
     <Compile Include="koneksi.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="form\dasbot.resx">
+      <DependentUpon>dasbot.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="form\flogin.resx">
       <DependentUpon>flogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -101,6 +110,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\medical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\real-estate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\003-blood-donation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\004-blood-donation-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001-blood-sample.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\002-medical-history.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

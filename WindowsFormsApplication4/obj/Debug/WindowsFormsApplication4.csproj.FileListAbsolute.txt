@@ -12,3 +12,6 @@ C:\Users\hbpz\Videos\gittpemvis\WindowsFormsApplication4\WindowsFormsApplication
 C:\Users\hbpz\Videos\gittpemvis\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
 C:\Users\hbpz\Videos\gittpemvis\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\Bunifu.Core.dll
 C:\Users\hbpz\Videos\gittpemvis\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.fregis.resources
+C:\Users\hbpz\Pictures\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.exe.config
+C:\Users\hbpz\Pictures\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.exe
+C:\Users\hbpz\Pictures\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.pdb
