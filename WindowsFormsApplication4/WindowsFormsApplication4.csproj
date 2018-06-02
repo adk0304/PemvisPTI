@@ -56,6 +56,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="form\adddarah.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="form\adddarah.Designer.cs">
+      <DependentUpon>adddarah.cs</DependentUpon>
+    </Compile>
     <Compile Include="form\fdasbot.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,24 @@
     <Compile Include="form\fregis.Designer.cs">
       <DependentUpon>fregis.cs</DependentUpon>
     </Compile>
+    <Compile Include="form\laporr.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="form\laporr.Designer.cs">
+      <DependentUpon>laporr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\stokdara.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="form\stokdara.Designer.cs">
+      <DependentUpon>stokdara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\tbhpndonor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="form\tbhpndonor.Designer.cs">
+      <DependentUpon>tbhpndonor.cs</DependentUpon>
+    </Compile>
     <Compile Include="variable\datadmin.cs" />
     <Compile Include="koneksi.cs" />
     <Compile Include="Program.cs" />
@@ -82,6 +106,9 @@
     <Compile Include="variable\inputdatapendonor.cs" />
     <Compile Include="variable\outputdarah.cs" />
     <Compile Include="variable\stokdarah.cs" />
+    <EmbeddedResource Include="form\adddarah.resx">
+      <DependentUpon>adddarah.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="form\fdasbot.resx">
       <DependentUpon>fdasbot.cs</DependentUpon>
     </EmbeddedResource>
@@ -90,6 +117,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="form\fregis.resx">
       <DependentUpon>fregis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\laporr.resx">
+      <DependentUpon>laporr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\stokdara.resx">
+      <DependentUpon>stokdara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\tbhpndonor.resx">
+      <DependentUpon>tbhpndonor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

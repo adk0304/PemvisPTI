@@ -66,7 +66,7 @@
             this.passlog.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.passlog.HintForeColor = System.Drawing.Color.Empty;
             this.passlog.HintText = "Password";
-            this.passlog.isPassword = false;
+            this.passlog.isPassword = true;
             this.passlog.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(9)))), ((int)(((byte)(75)))));
             this.passlog.LineIdleColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(139)))), ((int)(((byte)(211)))));
             this.passlog.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(139)))), ((int)(((byte)(211)))));

@@ -26,3 +26,7 @@ C:\Users\hbpz\Pictures\WindowsFormsApplication4\WindowsFormsApplication4\obj\Deb
 C:\Users\hbpz\Pictures\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.fregis.resources
 C:\Users\hbpz\Pictures\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Properties.Resources.resources
 C:\Users\hbpz\Pictures\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.csproj.GenerateResource.Cache
+C:\Users\hbpz\Pictures\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.form.tbhpndonor.resources
+C:\Users\hbpz\Pictures\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.form.adddarah.resources
+C:\Users\hbpz\Pictures\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.form.stokdara.resources
+C:\Users\hbpz\Pictures\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.form.laporr.resources
