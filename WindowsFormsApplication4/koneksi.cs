@@ -15,6 +15,20 @@ namespace WindowsFormsApplication4
         {
             sambung.ConnectionString = konfigurasi;
         }
+        public static MySqlConnection getkonek()
+        {
+            MySqlConnection connn = null;
+            try
+            {
+                string baru ="SERVER=localhost;PORT=3306;UID=root;PASSWORD=;DATABASE=donordarah";
+                connn = new MySqlConnection(baru);
+            }
+            catch (MySqlException sqlex)
+            {
+                throw new Exception(sqlex.Message.ToString());
+            }
+            return connn;
+        }
         public void tambahacc(string name, string pass)
         {
             sambung.Open();
@@ -23,6 +37,23 @@ namespace WindowsFormsApplication4
             cmd.ExecuteNonQuery();
             sambung.Close();
         }
+        //public Boolean ceklog(string loguser, string logpass)
+        //{
+        //    string printa = "SELECT namaadmin,passadmin FROM adminn";
+        //    sambung.Open();
+        //    MySqlCommand cmdlog = new MySqlCommand(printa, sambung);
+        //    MySqlDataReader reader = cmdlog.ExecuteReader();
+        //    while(reader.Read())
+        //    {
+        //        if((loguser==reader.GetString(0))&&(logpass==reader.GetString(1)))
+        //        {
+        //            return true;
+        //        }
+        //    }
+        //    sambung.Close();
+        //    return false;
+
+        //}
 
     }
 }

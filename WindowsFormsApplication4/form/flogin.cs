@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
+using MySql.Data;
+
 
 namespace WindowsFormsApplication4
 {
@@ -16,7 +19,34 @@ namespace WindowsFormsApplication4
         {
             InitializeComponent();
         }
+        koneksi req = new koneksi();
+        MySqlConnection conn = koneksi.getkonek();
 
+        private void ceklig(string loguser, string logpass)
+        {
+            string printa = "SELECT *  FROM adminn WHERE namaadmin LIKE '" + loguser + "' AND passadmin LIKE '" + logpass + "'";
+
+
+            conn.Open();
+            MySqlCommand cmdlog = new MySqlCommand(printa, conn);
+            MySqlDataReader reader = cmdlog.ExecuteReader();
+            if (reader.Read())
+            {
+                MessageBox.Show("Selamat Datang");
+            }
+            else
+            {
+                MessageBox.Show("Periksa Form Login");
+            }
+            conn.Close();
+
+        }
+        private void godas()
+        {
+            form.fdasbot dasb = new form.fdasbot();
+            dasb.Show();
+            this.Hide();
+        }
         private void newspassword_OnValueChanged(object sender, EventArgs e)
         {
 
@@ -49,7 +79,13 @@ namespace WindowsFormsApplication4
 
         private void loginn_Click(object sender, EventArgs e)
         {
+            datadmin lig = new datadmin();
+            lig.namamin = userlogin.Text;
+            lig.passmin = passlog.Text;
+            ceklig(lig.namamin, lig.passmin);
+            godas();
             
+
         }
 
         private void buatac_Click(object sender, EventArgs e)
