@@ -16,7 +16,28 @@ namespace WindowsFormsApplication4
         {
             InitializeComponent();
         }
-
+        koneksi req = new koneksi();
+        private void addacc()
+        {
+            datadmin min = new datadmin();
+            min.namamin = baruuser.Text;
+            min.passmin = addpassword.Text;
+            if (min.passmin == readdpass.Text)
+            {
+                req.tambahacc(min.namamin, min.passmin);
+                gcancel();
+            }
+            else
+            {
+                MessageBox.Show("Periksa kembari Form login");
+            }
+        }
+        private void gcancel()
+        {
+            flogin flog = new flogin();
+            flog.Show();
+            this.Hide();
+        }
         private void newspassword_OnValueChanged(object sender, EventArgs e)
         {
 
@@ -49,7 +70,13 @@ namespace WindowsFormsApplication4
 
         private void canceel_Click(object sender, EventArgs e)
         {
+            gcancel();
+        }
 
+        private void btnbuatacc_Click(object sender, EventArgs e)
+        {
+            addacc();
+            
         }
 
         

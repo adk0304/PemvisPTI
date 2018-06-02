@@ -16,7 +16,8 @@ namespace WindowsFormsApplication4
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new form.fdasbot());
+            Application.Run(new flogin());
         }
     }
 }
+ 

@@ -105,6 +105,7 @@
             this.btnbuatacc.TabIndex = 5;
             this.btnbuatacc.Text = "Create Account";
             this.btnbuatacc.UseVisualStyleBackColor = false;
+            this.btnbuatacc.Click += new System.EventHandler(this.btnbuatacc_Click);
             // 
             // readdpass
             // 
@@ -115,8 +116,8 @@
             this.readdpass.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.readdpass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.readdpass.HintForeColor = System.Drawing.Color.Empty;
-            this.readdpass.HintText = "Confirm Password";
-            this.readdpass.isPassword = false;
+            this.readdpass.HintText = "Password";
+            this.readdpass.isPassword = true;
             this.readdpass.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(9)))), ((int)(((byte)(75)))));
             this.readdpass.LineIdleColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(139)))), ((int)(((byte)(211)))));
             this.readdpass.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(139)))), ((int)(((byte)(211)))));
@@ -140,7 +141,7 @@
             this.addpassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.addpassword.HintForeColor = System.Drawing.Color.Empty;
             this.addpassword.HintText = "Password";
-            this.addpassword.isPassword = false;
+            this.addpassword.isPassword = true;
             this.addpassword.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(9)))), ((int)(((byte)(75)))));
             this.addpassword.LineIdleColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(139)))), ((int)(((byte)(211)))));
             this.addpassword.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(139)))), ((int)(((byte)(211)))));

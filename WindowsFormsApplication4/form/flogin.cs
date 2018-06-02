@@ -54,7 +54,9 @@ namespace WindowsFormsApplication4
 
         private void buatac_Click(object sender, EventArgs e)
         {
-
+            fregis freg = new fregis();
+            freg.Show();
+            this.Hide();
         }
 
         private void flogin_Load(object sender, EventArgs e)
