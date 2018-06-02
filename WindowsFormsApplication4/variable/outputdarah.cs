@@ -10,27 +10,27 @@ namespace WindowsFormsApplication4.variable
     {
         private string idoutput, golongandarah, banyakkantong, tanggalkeluar, keterangan;
 
-        public string idoutput
+        public string id_output
         {
             get { return idoutput; }
             set { idoutput = value; }
         }
-        public string golongandarah
+        public string golongan_darah
         {
             get { return golongandarah; }
             set { golongandarah = value; }
         }
-        public string banyakkantong
+        public string banyak_kantong
         {
             get { return banyakkantong; }
             set { banyakkantong = value; }
         }
-        public string tanggalkeluar
+        public string tanggal_keluar
         {
             get { return tanggalkeluar; }
             set { tanggalkeluar = value; }
         }
-        public string keterangan
+        public string keterangan_darah
         {
             get { return keterangan; }
             set { keterangan = value; }

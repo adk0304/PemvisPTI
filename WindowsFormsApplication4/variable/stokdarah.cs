@@ -8,29 +8,29 @@ namespace WindowsFormsApplication4.variable
 {
     class stokdarah
     {
-        private string idstok, katongo, kantonga, kantongb, kantongab;
+        private string idstok, kantongo, kantonga, kantongb, kantongab;
 
-        public string idstok
+        public string id_stok
         {
             get { return idstok; }
             set { idstok = value; }
         }
-        public string kantongo
+        public string kantong_o
         {
             get { return kantongo; }
             set { kantongo = value; }
         }
-        public string kantonga
+        public string kantong_a
         {
             get { return kantonga; }
             set { kantonga = value; }
         }
-        public string kantongb
+        public string kantong_b
         {
             get { return kantongb; }
             set { kantongb = value; }
         }
-        public string kantongab
+        public string kantong_ab
         {
             get { return kantongab; }
             set { kantongab = value; }

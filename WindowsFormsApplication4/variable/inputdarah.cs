@@ -10,22 +10,22 @@ namespace WindowsFormsApplication4.variable
     {
         private string idinput, namapendonor, tanggalmasuk, inputgoldar;
 
-        public string idinput
+        public string id_input
         {
             get { return idinput; }
             set { idinput = value; }
         }
-        public string namapendonor
+        public string nama_pendonor
         {
             get { return namapendonor; }
             set { namapendonor = value; }
         }
-        public string tanggalmasuk
+        public string tanggal_masuk
         {
             get { return tanggalmasuk; }
             set { tanggalmasuk = value; }
         }
-        public string inputgoldar
+        public string input_goldar
         {
             get { return inputgoldar; }
             set { inputgoldar = value;}
