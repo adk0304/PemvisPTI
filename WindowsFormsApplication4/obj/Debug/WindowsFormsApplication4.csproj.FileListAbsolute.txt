@@ -12,16 +12,48 @@ C:\Users\hbpz\Videos\gittpemvis\WindowsFormsApplication4\WindowsFormsApplication
 C:\Users\hbpz\Videos\gittpemvis\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
 C:\Users\hbpz\Videos\gittpemvis\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\Bunifu.Core.dll
 C:\Users\hbpz\Videos\gittpemvis\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.fregis.resources
+C:\Users\hbpz\Pictures\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.exe.config
+C:\Users\hbpz\Pictures\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.exe
+C:\Users\hbpz\Pictures\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.pdb
+C:\Users\hbpz\Pictures\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.exe
+C:\Users\hbpz\Pictures\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.pdb
+C:\Users\hbpz\Pictures\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+C:\Users\hbpz\Pictures\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\hbpz\Pictures\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\Bunifu.Core.dll
+C:\Users\hbpz\Pictures\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.csprojResolveAssemblyReference.cache
+C:\Users\hbpz\Pictures\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.form.fdasbot.resources
+C:\Users\hbpz\Pictures\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.flogin.resources
+C:\Users\hbpz\Pictures\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.fregis.resources
+C:\Users\hbpz\Pictures\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Properties.Resources.resources
+C:\Users\hbpz\Pictures\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.csproj.GenerateResource.Cache
+E:\Pemvis\jangan di git kan\PemvisPTI-master\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.exe.config
+E:\Pemvis\jangan di git kan\PemvisPTI-master\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.exe
+E:\Pemvis\jangan di git kan\PemvisPTI-master\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.pdb
+E:\Pemvis\jangan di git kan\PemvisPTI-master\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.csprojResolveAssemblyReference.cache
+E:\Pemvis\jangan di git kan\PemvisPTI-master\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.form.fdasbot.resources
+E:\Pemvis\jangan di git kan\PemvisPTI-master\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.flogin.resources
+E:\Pemvis\jangan di git kan\PemvisPTI-master\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.form.Fpendonor.resources
+E:\Pemvis\jangan di git kan\PemvisPTI-master\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.fregis.resources
+E:\Pemvis\jangan di git kan\PemvisPTI-master\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Properties.Resources.resources
+E:\Pemvis\jangan di git kan\PemvisPTI-master\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.csproj.GenerateResource.Cache
+E:\Pemvis\jangan di git kan\PemvisPTI-master\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.exe
+E:\Pemvis\jangan di git kan\PemvisPTI-master\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.pdb
+E:\Pemvis\jangan di git kan\PemvisPTI-master\WindowsFormsApplication4\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+E:\Pemvis\jangan di git kan\PemvisPTI-master\WindowsFormsApplication4\bin\Debug\Bunifu_UI_v1.5.3.dll
+E:\Pemvis\jangan di git kan\PemvisPTI-master\WindowsFormsApplication4\bin\Debug\Bunifu.Core.dll
 E:\Pemvis\PemvisPTI-master\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.exe.config
 E:\Pemvis\PemvisPTI-master\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.exe
 E:\Pemvis\PemvisPTI-master\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.pdb
-E:\Pemvis\PemvisPTI-master\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.csprojResolveAssemblyReference.cache
-E:\Pemvis\PemvisPTI-master\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.flogin.resources
-E:\Pemvis\PemvisPTI-master\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.fregis.resources
-E:\Pemvis\PemvisPTI-master\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Properties.Resources.resources
-E:\Pemvis\PemvisPTI-master\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.csproj.GenerateResource.Cache
 E:\Pemvis\PemvisPTI-master\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.exe
 E:\Pemvis\PemvisPTI-master\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.pdb
 E:\Pemvis\PemvisPTI-master\WindowsFormsApplication4\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
 E:\Pemvis\PemvisPTI-master\WindowsFormsApplication4\bin\Debug\Bunifu_UI_v1.5.3.dll
 E:\Pemvis\PemvisPTI-master\WindowsFormsApplication4\bin\Debug\Bunifu.Core.dll
+E:\Pemvis\PemvisPTI-master\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.csprojResolveAssemblyReference.cache
+E:\Pemvis\PemvisPTI-master\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.form.fdasbot.resources
+E:\Pemvis\PemvisPTI-master\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.flogin.resources
+E:\Pemvis\PemvisPTI-master\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.form.Fpendonor.resources
+E:\Pemvis\PemvisPTI-master\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.fregis.resources
+E:\Pemvis\PemvisPTI-master\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Properties.Resources.resources
+E:\Pemvis\PemvisPTI-master\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.csproj.GenerateResource.Cache
+E:\Pemvis\PemvisPTI-master\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.form.fdonor.resources

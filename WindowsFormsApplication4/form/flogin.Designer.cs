@@ -195,6 +195,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(142, 99);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // flogin
             // 
@@ -205,6 +206,7 @@
             this.Controls.Add(this.bunifuGradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "flogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "flogin";
             this.Load += new System.EventHandler(this.flogin_Load);
             this.panel1.ResumeLayout(false);
