@@ -36,13 +36,19 @@ namespace WindowsFormsApplication4.form
         {
 
             panel7.Show();
-            this.label4.Text = "Tambah Pendonor";
+            this.label4.Text = "Donor Darah";
             
+        }
+        private void signout()
+        {
+            flogin baru = new flogin();
+            this.Hide();
+            baru.Show();
         }
         private void dnrdarah()
         {
             panel8.Show();
-            this.label4.Text = "Donor Darah";
+            this.label4.Text = "Tambah Pendonor";
         }
         private void stokkk()
         {
@@ -63,13 +69,14 @@ namespace WindowsFormsApplication4.form
         private void btnupdarah_Click(object sender, EventArgs e)
         {
             sembunyi();
-            tbhdonor();
+            dnrdarah();
         }
 
         private void btngivedrh_Click(object sender, EventArgs e)
         {
             sembunyi();
-            dnrdarah();
+            tbhdonor();
+            
         }
 
         private void btnstok_MouseClick(object sender, MouseEventArgs e)
@@ -97,6 +104,11 @@ namespace WindowsFormsApplication4.form
         {
             sembunyi();
             laporrrr();
+        }
+
+        private void btnlogout_Click(object sender, EventArgs e)
+        {
+            signout();
         }
 
         

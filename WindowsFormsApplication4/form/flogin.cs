@@ -33,6 +33,7 @@ namespace WindowsFormsApplication4
             if (reader.Read())
             {
                 MessageBox.Show("Selamat Datang");
+                godas();
             }
             else
             {
@@ -83,7 +84,7 @@ namespace WindowsFormsApplication4
             lig.namamin = userlogin.Text;
             lig.passmin = passlog.Text;
             ceklig(lig.namamin, lig.passmin);
-            godas();
+            
             
 
         }

@@ -29,49 +29,49 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.bunifuCards3 = new Bunifu.Framework.UI.BunifuCards();
-            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.bunifuCards2 = new Bunifu.Framework.UI.BunifuCards();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.bunifuCards1 = new Bunifu.Framework.UI.BunifuCards();
             this.btnlogout = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnstok = new System.Windows.Forms.Button();
             this.btnlaporan = new System.Windows.Forms.Button();
             this.btngivedrh = new System.Windows.Forms.Button();
             this.btnupdarah = new System.Windows.Forms.Button();
             this.btndasbor = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.bunifuCards3 = new Bunifu.Framework.UI.BunifuCards();
+            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.bunifuCards2 = new Bunifu.Framework.UI.BunifuCards();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.bunifuCards1 = new Bunifu.Framework.UI.BunifuCards();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.stokdara1 = new WindowsFormsApplication4.form.stokdara();
-            this.adddarah1 = new WindowsFormsApplication4.form.adddarah();
-            this.tbhpndonor1 = new WindowsFormsApplication4.form.tbhpndonor();
+            this.tbhpndonor1 = new WindowsFormsApplication4.form.adddarah();
             this.panel10 = new System.Windows.Forms.Panel();
             this.laporr1 = new WindowsFormsApplication4.form.laporr();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.stokdara1 = new WindowsFormsApplication4.form.stokdara();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.adddarah1 = new WindowsFormsApplication4.form.tbhpndonor();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.bunifuCards3.SuspendLayout();
             this.panel5.SuspendLayout();
             this.bunifuCards2.SuspendLayout();
-            this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel4.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel7.SuspendLayout();
-            this.panel8.SuspendLayout();
-            this.panel9.SuspendLayout();
             this.panel10.SuspendLayout();
+            this.panel9.SuspendLayout();
+            this.panel8.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -91,154 +91,6 @@
             this.panel1.Size = new System.Drawing.Size(200, 501);
             this.panel1.TabIndex = 0;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(46, 78);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(102, 21);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Donor Darah";
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(132)))), ((int)(((byte)(227)))));
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(200, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(744, 50);
-            this.panel2.TabIndex = 1;
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.bunifuCards3);
-            this.panel3.Controls.Add(this.bunifuCards2);
-            this.panel3.Controls.Add(this.bunifuCards1);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(744, 451);
-            this.panel3.TabIndex = 2;
-            // 
-            // bunifuCards3
-            // 
-            this.bunifuCards3.BackColor = System.Drawing.Color.White;
-            this.bunifuCards3.BorderRadius = 5;
-            this.bunifuCards3.BottomSahddow = true;
-            this.bunifuCards3.color = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(189)))), ((int)(((byte)(227)))));
-            this.bunifuCards3.Controls.Add(this.monthCalendar1);
-            this.bunifuCards3.Controls.Add(this.panel5);
-            this.bunifuCards3.LeftSahddow = false;
-            this.bunifuCards3.Location = new System.Drawing.Point(497, 193);
-            this.bunifuCards3.Name = "bunifuCards3";
-            this.bunifuCards3.RightSahddow = true;
-            this.bunifuCards3.ShadowDepth = 20;
-            this.bunifuCards3.Size = new System.Drawing.Size(235, 252);
-            this.bunifuCards3.TabIndex = 4;
-            // 
-            // monthCalendar1
-            // 
-            this.monthCalendar1.Location = new System.Drawing.Point(2, 38);
-            this.monthCalendar1.Name = "monthCalendar1";
-            this.monthCalendar1.TabIndex = 2;
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(189)))), ((int)(((byte)(227)))));
-            this.panel5.Controls.Add(this.label3);
-            this.panel5.Location = new System.Drawing.Point(2, 0);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(233, 26);
-            this.panel5.TabIndex = 1;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label3.Location = new System.Drawing.Point(91, 5);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(61, 17);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Calender";
-            // 
-            // bunifuCards2
-            // 
-            this.bunifuCards2.BackColor = System.Drawing.Color.White;
-            this.bunifuCards2.BorderRadius = 5;
-            this.bunifuCards2.BottomSahddow = true;
-            this.bunifuCards2.color = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(189)))), ((int)(((byte)(227)))));
-            this.bunifuCards2.Controls.Add(this.pictureBox2);
-            this.bunifuCards2.Controls.Add(this.panel4);
-            this.bunifuCards2.LeftSahddow = false;
-            this.bunifuCards2.Location = new System.Drawing.Point(17, 193);
-            this.bunifuCards2.Name = "bunifuCards2";
-            this.bunifuCards2.RightSahddow = true;
-            this.bunifuCards2.ShadowDepth = 20;
-            this.bunifuCards2.Size = new System.Drawing.Size(456, 255);
-            this.bunifuCards2.TabIndex = 3;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(189)))), ((int)(((byte)(227)))));
-            this.panel4.Controls.Add(this.label2);
-            this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(453, 26);
-            this.panel4.TabIndex = 1;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(141, 5);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(161, 17);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Syarat - Syarat Pendonor";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label4.Location = new System.Drawing.Point(44, 9);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(157, 37);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Dashboard";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = global::WindowsFormsApplication4.Properties.Resources.syarat3;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox2.Location = new System.Drawing.Point(10, 32);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(436, 168);
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
-            // 
-            // bunifuCards1
-            // 
-            this.bunifuCards1.BackColor = System.Drawing.Color.White;
-            this.bunifuCards1.BackgroundImage = global::WindowsFormsApplication4.Properties.Resources.DONOR_DARAH;
-            this.bunifuCards1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuCards1.BorderRadius = 5;
-            this.bunifuCards1.BottomSahddow = true;
-            this.bunifuCards1.color = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(189)))), ((int)(((byte)(227)))));
-            this.bunifuCards1.LeftSahddow = false;
-            this.bunifuCards1.Location = new System.Drawing.Point(17, 6);
-            this.bunifuCards1.Name = "bunifuCards1";
-            this.bunifuCards1.RightSahddow = true;
-            this.bunifuCards1.ShadowDepth = 20;
-            this.bunifuCards1.Size = new System.Drawing.Size(715, 181);
-            this.bunifuCards1.TabIndex = 2;
-            // 
             // btnlogout
             // 
             this.btnlogout.FlatAppearance.BorderSize = 0;
@@ -254,7 +106,20 @@
             this.btnlogout.Text = "     Sign Out";
             this.btnlogout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnlogout.UseVisualStyleBackColor = true;
+            this.btnlogout.Click += new System.EventHandler(this.btnlogout_Click);
             this.btnlogout.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnlogout_MouseClick);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.Location = new System.Drawing.Point(46, 78);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(102, 21);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Donor Darah";
             // 
             // pictureBox1
             // 
@@ -356,13 +221,149 @@
             this.btndasbor.UseVisualStyleBackColor = true;
             this.btndasbor.Click += new System.EventHandler(this.btndasbor_Click);
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(132)))), ((int)(((byte)(227)))));
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(200, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(744, 50);
+            this.panel2.TabIndex = 1;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label4.Location = new System.Drawing.Point(44, 9);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(157, 37);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Dashboard";
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.bunifuCards3);
+            this.panel3.Controls.Add(this.bunifuCards2);
+            this.panel3.Controls.Add(this.bunifuCards1);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(744, 451);
+            this.panel3.TabIndex = 2;
+            // 
+            // bunifuCards3
+            // 
+            this.bunifuCards3.BackColor = System.Drawing.Color.White;
+            this.bunifuCards3.BorderRadius = 5;
+            this.bunifuCards3.BottomSahddow = true;
+            this.bunifuCards3.color = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(189)))), ((int)(((byte)(227)))));
+            this.bunifuCards3.Controls.Add(this.monthCalendar1);
+            this.bunifuCards3.Controls.Add(this.panel5);
+            this.bunifuCards3.LeftSahddow = false;
+            this.bunifuCards3.Location = new System.Drawing.Point(497, 193);
+            this.bunifuCards3.Name = "bunifuCards3";
+            this.bunifuCards3.RightSahddow = true;
+            this.bunifuCards3.ShadowDepth = 20;
+            this.bunifuCards3.Size = new System.Drawing.Size(235, 252);
+            this.bunifuCards3.TabIndex = 4;
+            // 
+            // monthCalendar1
+            // 
+            this.monthCalendar1.Location = new System.Drawing.Point(2, 38);
+            this.monthCalendar1.Name = "monthCalendar1";
+            this.monthCalendar1.TabIndex = 2;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(189)))), ((int)(((byte)(227)))));
+            this.panel5.Controls.Add(this.label3);
+            this.panel5.Location = new System.Drawing.Point(2, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(233, 26);
+            this.panel5.TabIndex = 1;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label3.Location = new System.Drawing.Point(91, 5);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(61, 17);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Calender";
+            // 
+            // bunifuCards2
+            // 
+            this.bunifuCards2.BackColor = System.Drawing.Color.White;
+            this.bunifuCards2.BorderRadius = 5;
+            this.bunifuCards2.BottomSahddow = true;
+            this.bunifuCards2.color = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(189)))), ((int)(((byte)(227)))));
+            this.bunifuCards2.Controls.Add(this.pictureBox2);
+            this.bunifuCards2.Controls.Add(this.panel4);
+            this.bunifuCards2.LeftSahddow = false;
+            this.bunifuCards2.Location = new System.Drawing.Point(17, 193);
+            this.bunifuCards2.Name = "bunifuCards2";
+            this.bunifuCards2.RightSahddow = true;
+            this.bunifuCards2.ShadowDepth = 20;
+            this.bunifuCards2.Size = new System.Drawing.Size(456, 255);
+            this.bunifuCards2.TabIndex = 3;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::WindowsFormsApplication4.Properties.Resources.syarat3;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox2.Location = new System.Drawing.Point(10, 32);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(436, 168);
+            this.pictureBox2.TabIndex = 2;
+            this.pictureBox2.TabStop = false;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(189)))), ((int)(((byte)(227)))));
+            this.panel4.Controls.Add(this.label2);
+            this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(453, 26);
+            this.panel4.TabIndex = 1;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label2.Location = new System.Drawing.Point(141, 5);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(161, 17);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Syarat - Syarat Pendonor";
+            // 
+            // bunifuCards1
+            // 
+            this.bunifuCards1.BackColor = System.Drawing.Color.White;
+            this.bunifuCards1.BackgroundImage = global::WindowsFormsApplication4.Properties.Resources.DONOR_DARAH;
+            this.bunifuCards1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuCards1.BorderRadius = 5;
+            this.bunifuCards1.BottomSahddow = true;
+            this.bunifuCards1.color = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(189)))), ((int)(((byte)(227)))));
+            this.bunifuCards1.LeftSahddow = false;
+            this.bunifuCards1.Location = new System.Drawing.Point(17, 6);
+            this.bunifuCards1.Name = "bunifuCards1";
+            this.bunifuCards1.RightSahddow = true;
+            this.bunifuCards1.ShadowDepth = 20;
+            this.bunifuCards1.Size = new System.Drawing.Size(715, 181);
+            this.bunifuCards1.TabIndex = 2;
+            // 
             // panel6
             // 
             this.panel6.Controls.Add(this.panel3);
+            this.panel6.Controls.Add(this.panel7);
             this.panel6.Controls.Add(this.panel10);
             this.panel6.Controls.Add(this.panel9);
             this.panel6.Controls.Add(this.panel8);
-            this.panel6.Controls.Add(this.panel7);
             this.panel6.Location = new System.Drawing.Point(200, 50);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(744, 451);
@@ -376,40 +377,6 @@
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(744, 451);
             this.panel7.TabIndex = 8;
-            // 
-            // panel8
-            // 
-            this.panel8.Controls.Add(this.adddarah1);
-            this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel8.Location = new System.Drawing.Point(0, 0);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(744, 451);
-            this.panel8.TabIndex = 5;
-            // 
-            // panel9
-            // 
-            this.panel9.Controls.Add(this.stokdara1);
-            this.panel9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel9.Location = new System.Drawing.Point(0, 0);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(744, 451);
-            this.panel9.TabIndex = 8;
-            // 
-            // stokdara1
-            // 
-            this.stokdara1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.stokdara1.Location = new System.Drawing.Point(0, 0);
-            this.stokdara1.Name = "stokdara1";
-            this.stokdara1.Size = new System.Drawing.Size(744, 451);
-            this.stokdara1.TabIndex = 0;
-            // 
-            // adddarah1
-            // 
-            this.adddarah1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.adddarah1.Location = new System.Drawing.Point(0, 0);
-            this.adddarah1.Name = "adddarah1";
-            this.adddarah1.Size = new System.Drawing.Size(744, 451);
-            this.adddarah1.TabIndex = 0;
             // 
             // tbhpndonor1
             // 
@@ -436,6 +403,40 @@
             this.laporr1.Size = new System.Drawing.Size(744, 451);
             this.laporr1.TabIndex = 0;
             // 
+            // panel9
+            // 
+            this.panel9.Controls.Add(this.stokdara1);
+            this.panel9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel9.Location = new System.Drawing.Point(0, 0);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(744, 451);
+            this.panel9.TabIndex = 8;
+            // 
+            // stokdara1
+            // 
+            this.stokdara1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.stokdara1.Location = new System.Drawing.Point(0, 0);
+            this.stokdara1.Name = "stokdara1";
+            this.stokdara1.Size = new System.Drawing.Size(744, 451);
+            this.stokdara1.TabIndex = 0;
+            // 
+            // panel8
+            // 
+            this.panel8.Controls.Add(this.adddarah1);
+            this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel8.Location = new System.Drawing.Point(0, 0);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(744, 451);
+            this.panel8.TabIndex = 5;
+            // 
+            // adddarah1
+            // 
+            this.adddarah1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.adddarah1.Location = new System.Drawing.Point(0, 0);
+            this.adddarah1.Name = "adddarah1";
+            this.adddarah1.Size = new System.Drawing.Size(744, 451);
+            this.adddarah1.TabIndex = 0;
+            // 
             // fdasbot
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -450,6 +451,7 @@
             this.Text = "fdasbot";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
@@ -457,15 +459,14 @@
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.bunifuCards2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
-            this.panel8.ResumeLayout(false);
-            this.panel9.ResumeLayout(false);
             this.panel10.ResumeLayout(false);
+            this.panel9.ResumeLayout(false);
+            this.panel8.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -495,9 +496,9 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel7;
-        private tbhpndonor tbhpndonor1;
+        private adddarah tbhpndonor1;
         private System.Windows.Forms.Panel panel8;
-        private adddarah adddarah1;
+        private tbhpndonor adddarah1;
         private System.Windows.Forms.Panel panel9;
         private stokdara stokdara1;
         private System.Windows.Forms.Panel panel10;
